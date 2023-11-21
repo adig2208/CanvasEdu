@@ -1,0 +1,29 @@
+.breadcrumb .breadcrumb-item:last-of-type::before {
+    content: ">";
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.content-wrapper {
+    margin-left: 95px;
+}
+
+.top-section {
+    display: contents;
+    align-items: center;
+}
+
+.menu-icon {
+    color: red;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.top-section .profile-name {
+    font-size: 18px;
+    color: black;
+    margin-left: 25px;
+}

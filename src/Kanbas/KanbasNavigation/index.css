@@ -1,0 +1,141 @@
+/* common */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.menu-text {
+    text-align: center;
+}
+
+.sidebar .nav-link i {
+    font-size: 24px;
+    color: red;
+    display: block;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+.sidebar .nav-link.active {
+    background-color: white!important;
+    color: red !important;
+}
+
+.sidebar {
+    position: fixed!important;
+    top: 0!important;
+    left: 0!important;
+    background-color: black!important;
+    color: white;
+    width: 85px!important;
+    height: 100%!important;
+    padding: 0!important;
+}
+
+.sidebar-logo {
+    text-align: center;
+    padding: 0;
+}
+
+.sidebar .nav-link {
+    color: white;
+    text-align: center!important;
+    padding: 5px 0!important;
+    padding-bottom: 8px !important;
+    font-size: 14px!important;
+    font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+    text-decoration: none!important;
+}
+
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.sidebar .nav-link a:hover {
+    color: inherit;
+}
+
+.sidebar .act {
+    color: #b6b7b9 !important;
+}
+
+.sidebar .pas {
+    color: #ff0000 !important;
+}
+
+.content-wrapper {
+    margin-left: 95px;
+    padding-top: 20px;
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .menu-icon {
+    color: red;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.profile-name {
+    font-size: 18px;
+    color: black;
+    margin-left: 25px;
+}
+
+
+/* specific to second columns */
+
+.left-navigation {
+    width: 125px;
+    background-color: white;
+    color: red;
+    padding: 0;
+}
+
+.left-navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-navigation ul li {
+    margin: 0;
+    padding-top: 15px;
+}
+
+.left-navigation ul li a {
+    text-decoration: none;
+    color: red;
+    font-size: 16px;
+    padding-left: 10px;
+    display: block;
+}
+
+.left-navigation ul li.selected a {
+    color: black !important;
+    border-left: 2px solid black;
+    padding-left: 8px;
+}
+
+
+/* for right content */
+
+.right-content {
+    margin-left: 100px;
+}
+
+@media (max-width: 250px) {
+    .left-navigation {
+        display: none;
+    }
+    .right-content {
+        margin-left: 0;
+    }
+    .sidebar {
+        display: none;
+    }
+}

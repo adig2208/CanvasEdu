@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+    <title>Grades</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block sidebar">
+                <div class="sidebar-logo">
+                    <img src="../../../images/northeastern.jpg" alt="Logo" width="80">
+                </div>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../account/index.html">
+                            <i class="fas fa-user-circle act"></i>
+                            <span class="menu-text">Account</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../dashboard/index.html">
+                            <i class="fas fa-tachometer-alt text-danger"></i> Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../../courses/index.html">
+                            <i class="fas fa-book text-danger"></i> Courses
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-calendar-alt text-danger"></i> Calendar
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-envelope-open-text text-danger"></i> Inbox
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="far fa-clock text-danger"></i> History
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-tv text-danger"></i> Studio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-arrow-circle-right text-danger"></i> Commons
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-question-circle text-danger"></i> Help
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+                <div class="content-wrapper">
+                    <div class="top-section">
+                        <div class="menu-icon">
+                            <i class="fas fa-bars text-danger"></i>
+                        </div>
+                        <div class="profile-name">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="#" class="text-danger" style="text-decoration: none;">CS5610.12631.202410</a></li>
+                                    <li class="breadcrumb-item"><a href="#" class="text-danger" style="text-decoration: none;">Term</a></li>
+                                    <li class="breadcrumb-item"><a href="#" class="text-danger" style="text-decoration: none;">Section</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Grades</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <nav class="col-md-3 d-md-block left-navigation text-danger">
+                            <ul>
+                                <li><a href="../home/home.html">Home</a></li>
+                                <li><a href="#">Modules</a></li>
+                                <li><a href="#">Piazza</a></li>
+                                <li><a href="#">Zoom Meetings</a></li>
+                                <li><a href="../assignments/index.html">Assignments</a></li>
+                                <li><a href="#">Quizzes</a></li>
+                                <li class="selected"><a href="#">Grades</a></li>
+                                <li><a href="#">People</a></li>
+                                <li><a href="#">Panopto Video</a></li>
+                                <li>
+                                    <div class="d-flex justify-content-between">
+                                        <a href="#">Discussions</a>
+                                        <i class="fa fa-eye-slash nav-icon-color"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between">
+                                        <a href="#">Announcements</a>
+                                        <i class="fa fa-eye-slash nav-icon-color"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between">
+                                        <a href="#">Pages</a>
+                                        <i class="fa fa-eye-slash nav-icon-color"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between">
+                                        <a href="#">Files</a>
+                                        <i class="fa fa-eye-slash nav-icon-color"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between">
+                                        <a href="#">Rubrics</a>
+                                        <i class="fa fa-eye-slash nav-icon-color"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between">
+                                        <a href="#">Outcomes</a>
+                                        <i class="fa fa-eye-slash nav-icon-color"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between">
+                                        <a href="#">Collaborations</a>
+                                        <i class="fa fa-eye-slash nav-icon-color"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between">
+                                        <a href="#">Syllabus</a>
+                                        <i class="fa fa-eye-slash nav-icon-color"></i>
+                                    </div>
+                                </li>
+                                <li><a href="#">Progress Reports<br>(EAB Navigate)</a></li>
+                                <li><a href="../settings/course_details.html">Settings</a></li>
+
+                            </ul>
+                        </nav>
+                        <div class="col-md-9 right-content">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div style="float: right;">
+                                        <button type="button" class="btn btn-light">
+                                            <i class="fas fa-file-import" style="color: #000000;"></i> Import
+                                        </button>
+                                        <button type="button" class="btn btn-light">
+                                            <i class="fas fa-file-export" style="color: #000000;"></i> Export
+                                        </button>
+                                        <button type="button" class="btn btn-light">
+                                            <i class="fas fa-cog" style="color: #000000;"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="Assignment-Names"><b>Assignment Names</b></label>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="Student-Names"><b>Student Names</b></label>
+                                </div>
+                            </div>
+
+                            <div class="row" style="margin-top: 5px;">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Search Assignments" id="Assignment-Names">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Search Students" id="Student-Names">
+                                </div>
+                            </div>
+
+                            <div class="row" style="margin-top: 20px;">
+                                <div class="col-3">
+                                    <button type="button" class="btn btn-light"><i class="fas fa-filter" style="color: #000000;"></i> Apply Filter</button>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table table-stripped table-change">
+                                    <tr><br>
+                                        <th>
+                                            Student Name
+                                        </th>
+                                        <th>
+                                            A1 Regression Out of 100
+                                        </th>
+                                        <th>
+                                            A2 Classification Out of 100
+                                        </th>
+                                        <th>
+                                            A3 Neural Networks Out of 100
+                                        </th>
+                                        <th>
+                                            A4 Unsupervised Machine Learning Out of 100
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-danger">
+                                            Aditya Gurnani
+                                        </td>
+                                        <td align="center">
+                                            95
+                                        </td>
+                                        <td align="center">
+                                            <input type="number" id="inp-1" placeholder="out of 100" value="89">
+                                        </td>
+                                        <td align="center">
+                                            91
+                                        </td>
+                                        <td align="center">
+                                            92
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-danger">
+                                            Harry Potter
+                                        </td>
+                                        <td align="center">
+                                            99
+                                        </td>
+                                        <td align="center">
+                                            70
+                                        </td>
+                                        <td align="center">
+                                            90
+                                        </td>
+                                        <td align="center">
+                                            <input type="number" id="inp-2" placeholder="out of 100" value="80">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-danger">
+                                            Barney Stinson
+                                        </td>
+                                        <td align="center">
+                                            95
+                                        </td>
+                                        <td align="center">
+                                            82
+                                        </td>
+                                        <td align="center">
+                                            <input type="number" id="inp-2" placeholder="out of 100" value="85">
+                                        </td>
+                                        <td align="center">
+                                            76
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-danger">
+                                            Ron Weasley
+                                        </td>
+                                        <td align="center">
+                                            <input type="number" id="inp-2" placeholder="out of 100" value="87">
+                                        </td>
+                                        <td align="center">
+                                            93
+                                        </td>
+                                        <td align="center">
+                                            87
+                                        </td>
+                                        <td align="center">
+                                            90
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>

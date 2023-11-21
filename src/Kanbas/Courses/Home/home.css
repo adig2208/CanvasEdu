@@ -1,0 +1,176 @@
+.far-right-content {
+    width: 240px!important;
+    margin-left: 20px;
+}
+
+.todo {
+    margin-top: 15px;
+}
+
+.todo-hr {
+    margin: revert;
+    color: black!important;
+}
+
+.grade-info {
+    position: relative;
+    width: 220px;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.2rem 0.2rem!important;
+}
+
+.grade-info .close-icon {
+    position: absolute;
+    margin-left: 205px;
+    color: #333;
+}
+
+.table {
+    display: table;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.icon-cell,
+.text-cell {
+    display: table-cell;
+}
+
+.icon-cell .fa-circle {
+    color: red;
+}
+
+.grade {
+    color: red!important;
+}
+
+.grade-small {
+    font-size: small!important;
+    color: #999999;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.calendar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-content {
+    margin-left: 50px!important;
+}
+
+.calendar-icon-text {
+    display: flex;
+    align-items: center;
+    font-size: revert;
+}
+
+.view-calendar {
+    color: red!important;
+    font-size: small!important;
+}
+
+.calendar-icon-text i {
+    margin-right: 5px;
+}
+
+.cal-icon-cell,
+.cal-text-cell {
+    display: table-cell;
+}
+
+.cal-row {
+    display: flex;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.cal-icon {
+    margin-right: 10px;
+}
+
+@media (min-width: 1298px) and (max-width: 1470px) {
+    .right-content {
+        margin-left: 20px!important;
+    }
+    .far-right-content {
+        width: 220px!important;
+    }
+    .button-group-1 button {
+        width: 85px!important;
+        font-size: x-small!important;
+    }
+}
+
+@media (max-width: 1298px) {
+    .far-right-content {
+        display: none;
+    }
+    .right-content {
+        margin-left: 20px!important;
+    }
+}
+
+@media (min-width: 925px) and (max-width: 1298px) {
+    .container {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .second-div {
+        flex: 1;
+    }
+}
+
+@media (max-width: 924px) {
+    .container {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .second-div {
+        flex: 1;
+    }
+    .left-navigation {
+        display: none !important;
+    }
+    .right-content {
+        margin: 10px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 811px) {
+    .sidebar {
+        display: none !important;
+    }
+    .right-content {
+        margin: 10px;
+        width: calc(100%-20px);
+    }
+    .content-wrapper {
+        margin-left: 0px!important;
+        padding-top: 0px!important;
+    }
+    .nav-hr {
+        display: none !important;
+    }
+    .row>* {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: 0!important;
+        padding-left: 0!important;
+        margin-top: var(--bs-gutter-y);
+    }
+    *,
+     ::after,
+     ::before {
+        box-sizing: border-box;
+    }
+}

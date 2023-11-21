@@ -1,0 +1,232 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.menu-text {
+    color: red;
+}
+
+.nav-link i {
+    font-size: 24px;
+    color: white;
+    display: block;
+}
+
+.nav-link.active {
+    background-color: white;
+    color: red !important;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    width: 85px;
+    height: 100%;
+    padding: 0;
+}
+
+.sidebar-logo {
+    text-align: center;
+    padding: 0;
+}
+
+.nav-link {
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    margin: 5px 0;
+    font-size: 14px;
+    font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.nav-link a:hover {
+    color: inherit;
+}
+
+.act {
+    color: #b6b7b9 !important;
+}
+
+.pas {
+    color: #ff0000 !important;
+}
+
+.content-wrapper {
+    margin-left: 95px;
+    padding-top: 20px;
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    color: red;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.profile-name {
+    font-size: 18px;
+    color: black;
+    margin-left: 25px;
+}
+
+.left-navigation {
+    width: 125px;
+    background-color: white;
+    color: red;
+    padding: 0;
+}
+
+.left-navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-navigation ul li {
+    margin: 0;
+    padding-top: 15px;
+}
+
+.left-navigation ul li a {
+    text-decoration: none;
+    color: red;
+    font-size: 16px;
+    padding-left: 10px;
+    display: block;
+}
+
+.left-navigation ul li.selected a {
+    color: black !important;
+    border-left: 2px solid black;
+    padding-left: 8px;
+}
+
+.right-content {
+    margin-left: 100px;
+}
+
+@media (max-width: 1300px) {
+    .left-navigation {
+        display: none;
+    }
+    .right-content {
+        margin-left: 0;
+    }
+    .sidebar {
+        display: none;
+    }
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="file"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 100%;
+}
+
+.file-icontainer {
+    width: 262px;
+    height: 146px;
+    border: 2px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.custom-file-upload {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f5f5f5;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+    background-color: #d0d0d0;
+}
+
+.top-navigation {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0;
+    transition: border-radius 0.3s ease-in-out;
+}
+
+.top-navigation li {
+    flex: 1;
+    text-align: center;
+}
+
+.top-navigation a {
+    color: red !important;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.top-navigation a:hover {
+    color: grey !important;
+}
+
+.date-picker {
+    width: 200px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+.calendar-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+tr.bordered {
+    border-bottom: 1px solid #c3baba;
+}
+
+.icon-for-dot td {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.icon-for-dot i {
+    float: right;
+    color: rgb(130, 128, 128);
+    font-size: 20px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "/";
+}
+
+.breadcrumb-item:last-of-type::before {
+    content: ">";
+}
