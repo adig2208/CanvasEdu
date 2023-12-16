@@ -1,5 +1,7 @@
 # CanvasEdu
 
+https://venerable-selkie-33323b.netlify.app
+
 ## Introduction
 
 This repository contains a dynamic web application that replicates the key functionalities of Canvas, a popular educational platform. This project is an embodiment of innovation in educational technology, offering a rich set of features for course management and collaborative learning experiences.
